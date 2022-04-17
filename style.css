@@ -1,0 +1,92 @@
+*{
+    margin: 0; 
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    /* background-image: url('img/shop.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .7;
+}
+header{
+    height: 80px;
+    background-color: rgb(195, 229, 248);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.hero{
+    margin: 10px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.hero .icons{
+    font-size: 36px;
+    color: maroon;
+}
+header ul{
+    display: flex;
+    margin-right: 50px;
+    gap: 15px;
+}
+header ul li{
+    font-size: 18px;
+    color: black;
+    cursor: pointer;  
+}
+header ul li a{
+transition: all ;
+}
+header ul li:hover{
+    color: brown;
+    font-size: 19px;
+    transition: margin-right 2s;
+}
+.title1{
+    font-size: 20px;
+    color: crimson;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+/* hr{
+    width: 40%;
+    height: 2px;
+    color: beige;
+} */
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 15px;
+}
+.card{
+    text-align: center;
+    width: 25%;
+    padding: 1.2rem;
+    box-shadow: 0 0 4px 3px rgba(200, 200, 202, 0.788);
+    margin-bottom: 2rem;
+}
+.card h2{
+    font-size: 20px;
+}
+.card .category, .price{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1rem;
+}
+.card img{
+    width: 100px;
+    transition: 1s ease-in-out;
+
+}
+
+.card img:hover{
+    width: 120px;
+}
